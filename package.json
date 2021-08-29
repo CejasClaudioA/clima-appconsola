@@ -1,0 +1,22 @@
+{
+  "name": "05-clima-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
